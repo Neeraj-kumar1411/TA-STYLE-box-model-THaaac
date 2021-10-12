@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom style */
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.sec1 {
+  background-color: #2d3040;
+}
+.section {
+  width: auto;
+  height: 400px;
+}
+.header {
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  color: white;
+}
+.nav {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.links {
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-decoration-line: none;
+}
+.sec2 {
+  background-color: #4c5c96;
+}
+h2 {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font: bold;
+
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.hr {
+  color: rgb(136, 127, 127);
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+p {
+  color: gray;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-right: 100px;
+}
+h3 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.para {
+  color: white;
+}
+.learnmore {
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration-line: none;
+}
+.sec3 {
+  background-color: #45558d;
+}
+.sec4 {
+  background-color: #3f4e85;
+}
+.footer {
+  background-color: #2d3040;
+  height: 100px;
+  margin-bottom: 100px;
+}
+/* h5 {
+  margin-left: 100px;
+  margin-top: 50px;
+} */
+.spn {
+  color: grey;
+  margin: 0 auto;
+  padding: 30px 100px;
+  display: inline-block;
+}
